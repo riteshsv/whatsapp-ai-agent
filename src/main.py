@@ -4,7 +4,6 @@ from fastapi import FastAPI, Request, Response, HTTPException, Query, status
 from src.ai_agent.whatsapp.handler import handle_whatsapp_webhook
 from .config import settings
 from .ai_agent.models.webhook import WhatsAppWebhookPayload
-from .ai_agent.services.agent import generate_agent_response
 from .ai_agent.whatsapp.message import send_whatsapp_message
 
 logging.basicConfig(
