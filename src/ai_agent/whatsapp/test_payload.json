@@ -1,0 +1,39 @@
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "WHATSAPP_BUSINESS_ACCOUNT_ID",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15555555555",
+              "phone_number_id": "100000000000000"
+            },
+            "contacts": [
+              {
+                "profile": {
+                  "name": "Jane Doe"
+                },
+                "wa_id": "1234567890"
+              }
+            ],
+            "messages": [
+              {
+                "from": "1234567890",
+                "id": "wamid.HBgLMTIzNDU2Nzg5MBUA...",
+                "timestamp": "1710000000",
+                "text": {
+                  "body": "Hi, what are your business hours?"
+                },
+                "type": "text"
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}

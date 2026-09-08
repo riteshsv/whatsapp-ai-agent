@@ -1,0 +1,18 @@
+[project]
+name = "whatsapp-ai-agent"
+version = "0.1.0"
+description = "An Whatsapp AI Agent Template"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+    "langchain[google-genai]>=1.4.0",
+    "langgraph>=1.2.11",
+    "pydantic>=2.13.5",
+    "pydantic-settings>=2.15.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]
